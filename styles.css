@@ -14,8 +14,6 @@ header{
 
 }
 
-
-
 dl{
     color: black;
 }
@@ -26,6 +24,7 @@ dl{
     justify-content: center;
     margin-bottom: 1.5rem;
     color: white;
+    cursor: pointer;
     
 }
 
@@ -66,6 +65,7 @@ form{
 }
 .form-container{
     align-items: center;
+    text-align: center;
 
 }
 
@@ -98,3 +98,64 @@ input{
 #amount{
     color: black;
 }
+
+#join {
+    align-items: center;
+    font-weight: 300;
+    text-align: center;
+
+}
+
+.submit{
+    background-color: cadetblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.table{
+    align-items: center;
+    text-align: center;
+    width: 90%;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+
+}
+
+td, th {
+    border: 2px solid rgb(133, 130, 130);
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
