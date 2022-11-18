@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 230, 233);
+    font-family: sans-serif;
+    
+ }
+
+header{
+    align-items: center;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+dl{
+    color: black;
+}
+
+.dashboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    color: white;
+    
+}
+
+.dashboard > div {
+    border-radius: 8px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+    font-size: 20px;
+    box-shadow: 0px 0px 43px 17px rgb(254, 255, 254);
+}
+
+.green {
+    background-color: rgb(98, 199, 192);
+}
+
+.orange {
+    background-color: rgb(243, 183, 127);
+}
+
+.blue {
+    background-color: rgb(115, 168, 236);
+}
+
+.pink {
+    background-color: rgb(255, 119, 160);
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+.form-container{
+    align-items: center;
+
+}
+
+label{
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    color: black;
+}
+
+input{
+    width: 332px;
+    padding: 10px 10px;
+    border: 3px solid hsla(279, 6%, 55%, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#option{
+    width: 350px;
+    padding: 10px 10px;
+    border: 3px solid hsla(279, 6%, 55%, 0.5);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#amount{
+    color: black;
+}
